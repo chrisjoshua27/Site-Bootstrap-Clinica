@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Animal Paw;
+    src: url(Animal\ Paw.ttf) format('truetype');
+}
+body{
+    font-family:Animal Paws, sans-serif;
+    font-size: medium;
+}
+
+.navbar {
+    background-color: green;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: rgb(0, 128, 109);
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #ffffff;
+}
+
+
+
+.navbar-toggler {
+    color:white;
+}
+
+.section-title{
+    font-family: Animal Paw, cursive;
+}
+
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #0d630360;
+}
+
+.text-colored{
+    color: green;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: rgb(0, 94, 128);
+    color: #ffff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: green;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
